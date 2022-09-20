@@ -24,6 +24,8 @@ setup(
         "drf-yasg==1.20.0",
         "dj-database-url==0.5.0",
         "django-rest-swagger==2.2.0",
-        "drf-spectacular==0.21.0"
+        "drf-spectacular==0.21.0",
+        "pytest==6.2.5",
+        "pytest-cov==3.0.0",
     ],
 )

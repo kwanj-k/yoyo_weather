@@ -15,3 +15,6 @@ shell:
 
 serve:
 	python3 manage.py runserver
+
+test:
+	pytest --cov-report term-missing --cov=src/api/v1 -p no:warnings
