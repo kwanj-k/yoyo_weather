@@ -27,5 +27,5 @@ api_status = ApiStatusViewSet.as_view(
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", api_status, name="api-status"),
-    path("api/v1/", include("yoyo_weather.v1_urls")),
+    path("api/", include("yoyo_weather.v1_urls")),
 ]
