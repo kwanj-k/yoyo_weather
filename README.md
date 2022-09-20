@@ -59,3 +59,9 @@ Fire up postman and start the development server by:
   ```
 
 To use the docs [click here]( http://127.0.0.1:8000/api/docs/)
+
+### Test endpoint
+
+| EndPoint                                        | Functionality |
+|-------------------------------------------------|:-------------:|
+| GET      /api/locations/{city}/?days={num_days} | Get Forecast  |
